@@ -2,3 +2,95 @@
     margin: 0;
     padding: 0;
 }
+ul, ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/*banner开始*/
+.banner{
+    height: 120px;
+}
+.banner a{
+display: block;
+height: 120px;
+background: url("../img/banner.jpg") no-repeat center 0;
+}
+/*banner结束*/
+.nav{
+    background: #333;
+
+}
+.wrapper{
+    width: 1210px;
+    height: 40px;
+    margin: 0 auto;
+
+}
+.main-nav{
+    overflow: hidden;
+}
+.main-nav li{
+    float: left;
+}
+.main-nav a{
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #aaaaaa;
+
+}
+.main-nav li span{
+    color: #b0b0b0;
+    margin:0 6px;
+}
+
+.main-nav a:hover{
+    color: #ffffff;
+}
+.user-info{
+    float: right;
+}
+.user-info span{
+    margin:0.5px;
+}
+.user-info li{
+    margin:0 6px;
+    float: left;
+}
+user-info  i {
+    color:red;
+    font-size: 20px;
+    margin: 3px;
+}
+.nav-header{
+    height:100px;
+}
+.header-wrapper{
+    margin: 0 auto;
+    width:1226px;
+    height: 100px;
+    position: relative;
+}
+.header-left{
+    width: 55px;
+    height: 55px;
+    background: url("../img/mi-logo.png") orangered  no-repeat;
+    position: absolute;
+    top:20px;
+}
+
+.header-center{
+    width: 850px;
+    height: 100px;
+    padding:55px ;
+    overflow: hidden;
+}
+.header-center li{
+    float: left;
+    margin: 0 auto;
+    line-height: 100px;
+    list-style: none;
+    margin: 5px;
+}
