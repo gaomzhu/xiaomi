@@ -18,18 +18,19 @@ height: 120px;
 background: url("../img/banner.jpg") no-repeat center 0;
 }
 /*banner结束*/
+/*top菜单开始*/
 .nav{
     background: #333;
+    height: 40px;
 
 }
 .wrapper{
     width: 1210px;
-    height: 40px;
     margin: 0 auto;
-
 }
 .main-nav{
-    overflow: hidden;
+    /*overflow: hidden;*/
+    float: left;
 }
 .main-nav li{
     float: left;
@@ -39,7 +40,6 @@ background: url("../img/banner.jpg") no-repeat center 0;
     line-height: 40px;
     font-size: 14px;
     color: #aaaaaa;
-
 }
 .main-nav li span{
     color: #b0b0b0;
@@ -55,42 +55,122 @@ background: url("../img/banner.jpg") no-repeat center 0;
 .user-info span{
     margin:0.5px;
 }
-.user-info li{
-    margin:0 6px;
+.user-info li {
+    margin: 0 6px;
     float: left;
 }
-user-info  i {
-    color:red;
-    font-size: 20px;
-    margin: 3px;
+.user-info a{
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #aaaaaa;
 }
-.nav-header{
-    height:100px;
+.user-info a:hover{
+    color: #ffffff;
 }
-.header-wrapper{
-    margin: 0 auto;
-    width:1226px;
-    height: 100px;
+/*top菜单结束*/
+/*购物车开始*/
+.user-info .cart{
+    width:120px;
+    height: 40px;
+    background: #424242;
+    text-align: center;
+    margin-left: 18px;
+    font-size: 15px;
     position: relative;
 }
-.header-left{
-    width: 55px;
-    height: 55px;
-    background: url("../img/mi-logo.png") orangered  no-repeat;
-    position: absolute;
-    top:20px;
+.user-info .cart:hover{
+    background:#ffffff ;
 }
-
-.header-center{
-    width: 850px;
-    height: 100px;
-    padding:55px ;
+.user-info .cart a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.user-info .cart:hover a{
+    color: #ff6700;
+}
+.cart-box{
+    width:300px;
+    height: 0px;
+    font-size: 12px;
+    line-height: 100px;
+    color: #000;
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    top:40px;
+    box-shadow:0px 3px 1px 2px rgba(0,0,0,0.2);
+    display:none;
     overflow: hidden;
 }
-.header-center li{
-    float: left;
-    margin: 0 auto;
-    line-height: 100px;
-    list-style: none;
-    margin: 5px;
+.user-info .cart:hover .cart-box{
+    display: block;
+    animation:show 0.4s ease-in forwards ;
 }
+@keyframes show {
+    100%{
+        height: 100px;
+    }
+}
+/*购物车结束*/
+/*header菜单开始*/
+.header{
+   height: 100px;
+    position: relative;
+}
+.header-wrapper {
+    margin: 0 auto;
+    height: 100px;
+    width: 1226px;
+
+}
+.logo{
+    float: left;
+}
+.link-logo{
+    display: block;
+    width:55px;
+    height: 55px;
+    background: url("../img/mi-logo.png")  center center no-repeat #ff6700 ;
+    margin-top:22px;
+}
+.center-menu {
+    float: left;
+    margin-left: 180px;
+}
+.item{
+    float: left;
+    padding:41px 0px;
+}
+.menu-item{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    font-size: 16px;
+    color: #333;
+}
+.menu-item:hover {
+    color: #ff6700;
+}
+.sub-menu{
+    background: #ffffff;
+    position:absolute;
+    left:0px;
+    top:100px;
+    width: 100%;
+    display: none;
+}
+.item:hover .sub-menu{
+    display: block;
+}
+.sub-menu li{
+    float: left;
+    margin-left: 130px;
+}
+.sub-menu li span{
+    color: #cccccc;
+    margin-left: 20px;
+}
+/*header菜单结束*/
