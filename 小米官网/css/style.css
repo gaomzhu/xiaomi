@@ -167,10 +167,29 @@ background: url("../img/banner.jpg") no-repeat center 0;
 }
 .sub-menu li{
     float: left;
-    margin-left: 130px;
+
 }
 .sub-menu li span{
-    color: #cccccc;
-    margin-left: 20px;
+    color: black;
+  display: block;
+    height: 249px;
 }
+/*.sub-menu .wrapper li{*/
+  /**/
+    /*width:204px;*/
+    /*height: 201px;*/
+    /*background: black;*/
+/*}*/
+.first-div{
+    width:200px;
+    height: 22px;
+    background: red;
+
+}
+.second-div{
+    width: 200px;
+    height: 227px;
+    background:#cccccc;
+}
+
 /*header菜单结束*/
