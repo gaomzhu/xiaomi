@@ -103,6 +103,7 @@ background: url("../img/banner.jpg") no-repeat center 0;
     box-shadow:0px 3px 1px 2px rgba(0,0,0,0.2);
     display:none;
     overflow: hidden;
+
 }
 .user-info .cart:hover .cart-box{
     display: block;
@@ -138,6 +139,7 @@ background: url("../img/banner.jpg") no-repeat center 0;
 .center-menu {
     float: left;
     margin-left: 180px;
+
 }
 .item{
     float: left;
@@ -169,6 +171,7 @@ background: url("../img/banner.jpg") no-repeat center 0;
 }
 .sub-menu li{
     float: left;
+    background: #ffffff;
 
 }
 .first-div{
@@ -194,7 +197,6 @@ background: url("../img/banner.jpg") no-repeat center 0;
     text-align: center;
 }
 .second-div1 {
-
     position:absolute;
     left: 20px;
     top:30px;
@@ -225,5 +227,161 @@ background: url("../img/banner.jpg") no-repeat center 0;
     /*100%{*/
         /*height: 250px;*/
     /*}}*/
+input{
+    width: 245px;
+    height:50px ;
+    border: 1px solid #aaaaaa;
+    position: relative;
+    left:90px ;
+    top:20px;
+}
+.search{
+    width: 40px;
+    height: 48px;
+    border: 1px solid #aaaaaa;
+    position: relative;
+    float: right;
+    position: relative;
+    top:20px;
+    text-align: center;
+    line-height: 52px;
 
+}
 /*header菜单结束*/
+/*轮播图开始*/
+.center
+{
+    width: 100%;
+    height: 460px;
+
+}
+#container {
+    width: 1226px;
+    height: 460px;
+    overflow: hidden;
+    margin: 50px auto;
+    position: relative;
+}
+
+#tab {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+
+}
+
+#tab li {
+    width: 20px;
+    height: 20px;
+    background: #000000;
+    color: #ffffff;
+    float: left;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 5px;
+
+}
+
+#content img {
+    display: none;
+}
+
+#content .selected {
+    display: block;
+}
+
+#tab .selected {
+    background: orangered;
+    color: #ffffff;
+    display: block;
+}
+
+/*#arrow {*/
+    /*position: absolute;*/
+    /*left: 20px;*/
+    /*bottom: 10px;*/
+/*}*/
+
+/*#arrow span {*/
+    /*width: 20px;*/
+    /*height: 20px;*/
+    /*background: #000000;*/
+    /*color: #ffffff;*/
+    /*float: left;*/
+    /*text-align: center;*/
+    /*line-height: 20px;*/
+    /*margin-right: 5px;*/
+/*}*/
+#y-menu{
+    background: #666666 ;
+    width: 200px;
+    position: relative;
+    display: block;
+    position: absolute;
+    left: 0px;
+    top:0px;
+}
+#y-menu .y-menu-left{
+    height: 46px;
+    opacity: 0.8;
+}
+#y-menu a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #ffffff;
+    /*padding: 10px 30px;*/
+    text-indent: 30px;
+    line-height: 30px;
+
+}
+#y-menu a:hover{
+    background: orange;
+}
+#y-menu .y-sub-menu{
+    position: absolute;
+    left: 200px;
+    top: 0;
+    width: 795px;
+    background: #ffffff;
+    display: none;
+}
+.y-sub-menu li{
+    height: 76px;
+}
+#y-menu li:hover .y-sub-menu {
+    display: block;
+}
+.div1  div{
+float: left;
+}
+.div2{
+    width: 263px;
+    height: 76px;
+}
+.div2-1{
+    width: 190px;
+    height:76px ;
+    /*background: #000000;*/
+    position: relative;
+}
+.div2-2{
+    width:72px ;
+    height: 76px;
+    float: right;
+    /*background: green;*/
+    text-align: center;
+    line-height:76px ;
+    color: #ff6700;
+}
+.div2-1 div{
+   position: absolute;
+    top: 25px;
+    left: 70px;
+}
+.div2-1 img{
+    position: absolute;
+    top:15px;
+    left: 20px;
+}
+/*轮播图结束*/
